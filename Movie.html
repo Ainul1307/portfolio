@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Favourite Movie </title>
+
+</head>
+<style>
+body {
+  background-image: url('bg_img5.jpg');
+ background-repeat: no-repeat;
+   background-attachment: fixed;
+  background-size: cover;
+}
+p {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid salmon;
+  padding: 50px;
+  margin: 20px;
+}
+
+
+</style
+<body>
+<h1>My Favourite Movie</h1>
+
+<h2>Coco</h2>
+
+<button onclick="playPause()">Play/Pause</button><br/><br/>
+<video id="video1" width="420">
+<source src="Coco.mp4" type="video/mp4">
+</video>
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+</script>
+<br/><br/>
+<h2>Movie Description: </h2>
+<p>Despite his family's generations-old ban on music, young Miguel dreams of becoming an 
+accomplished musician like his idol Ernesto de la Cruz. Desperate to prove his talent, 
+Miguel finds himself in the stunning and colorful Land of the Dead. 
+After meeting a charming trickster named Héctor, the two new friends embark on an 
+extraordinary journey to unlock the real story behind Miguel's family history.</p>
+	
+</body>
+
+
+
